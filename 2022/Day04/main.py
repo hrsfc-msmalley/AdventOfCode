@@ -25,7 +25,7 @@ def is_set_subset(set_pair):
   return (set1.issubset(set2) or set2.issubset(set1))
 
 # Check if any elements of one set exists in the other
-# A.issubset(B)
+# not A.isdisjoint(B)
 def is_set_overlap(set_pair):
   set1 = set_pair[0]
   set2 = set_pair[1]
