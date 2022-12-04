@@ -5,8 +5,6 @@ import re
 with open('input.txt') as f:
   sections = [line.rstrip() for line in f]
 
-
-
 # Parse section pairs, and convert to sets
 def pair_parse(section_pair):
   x = re.findall("[0-9]+", section_pair)
