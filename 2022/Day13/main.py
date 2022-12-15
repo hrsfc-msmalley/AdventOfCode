@@ -1,8 +1,6 @@
 # Advent of Code 2022 Day 13
 # Signal Descrambling
 
-from functools import cmp_to_key
-
 with open('input.txt') as f:
   input_signals = [x.rstrip() for x in f.readlines()]
 
